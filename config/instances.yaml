@@ -10,7 +10,7 @@ virtualmachines:
       - key: "AnsibleGroup"
         value: "bastions"
     services:
-      - name: containerlab
+      - name: containerlab-fip
         type: LoadBalancer
         ports:
           - port: 2222
